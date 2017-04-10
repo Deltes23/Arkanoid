@@ -7,7 +7,7 @@ using namespace std;
 
 int main(int argc, char** argv) {
 	glutInit(&argc, argv);
-	scena.inicjuj();
+	scena.inicjuj(); //inicluje scene
 	glutMainLoop();
 	return 0;
 }
